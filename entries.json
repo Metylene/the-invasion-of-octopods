@@ -1,0 +1,424 @@
+{
+  "nextEntryId": 99,
+  "nodes": [
+    {
+      "id": "20",
+      "name": "Menu",
+      "type": null,
+      "children": [
+        {
+          "id": "22",
+          "name": "Main",
+          "type": "scene"
+        },
+        {
+          "id": "82",
+          "name": "Credit",
+          "type": "scene"
+        },
+        {
+          "id": "23",
+          "name": "Menu Behavior",
+          "type": "script"
+        },
+        {
+          "id": "92",
+          "name": "Credit Behavior",
+          "type": "script"
+        },
+        {
+          "id": "87",
+          "name": "Credit picture",
+          "type": null,
+          "children": [
+            {
+              "id": "88",
+              "name": "Metylene Avatar",
+              "type": "sprite"
+            },
+            {
+              "id": "89",
+              "name": "Sparklin Labs Logo",
+              "type": "sprite"
+            },
+            {
+              "id": "90",
+              "name": "Superpowers Logo",
+              "type": "sprite"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "97",
+      "name": "Scene",
+      "type": null,
+      "children": [
+        {
+          "id": "3",
+          "name": "Space",
+          "type": "scene"
+        }
+      ]
+    },
+    {
+      "id": "0",
+      "name": "Ship",
+      "type": null,
+      "children": [
+        {
+          "id": "1",
+          "name": "Sprite",
+          "type": "sprite"
+        },
+        {
+          "id": "4",
+          "name": "Behavior",
+          "type": "script"
+        },
+        {
+          "id": "10",
+          "name": "Laser",
+          "type": null,
+          "children": [
+            {
+              "id": "12",
+              "name": "Sprite",
+              "type": "sprite"
+            },
+            {
+              "id": "13",
+              "name": "Behavior",
+              "type": "script"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "name": "Ennemies",
+      "type": null,
+      "children": [
+        {
+          "id": "18",
+          "name": "EnnemySpawner",
+          "type": "script"
+        },
+        {
+          "id": "19",
+          "name": "EnnemyBehavior",
+          "type": "script"
+        },
+        {
+          "id": "15",
+          "name": "Little",
+          "type": null,
+          "children": [
+            {
+              "id": "16",
+              "name": "Sprite",
+              "type": "sprite"
+            },
+            {
+              "id": "17",
+              "name": "Behavior",
+              "type": "script"
+            }
+          ]
+        },
+        {
+          "id": "38",
+          "name": "Big",
+          "type": null,
+          "children": [
+            {
+              "id": "39",
+              "name": "Sprite",
+              "type": "sprite"
+            },
+            {
+              "id": "40",
+              "name": "Behavior",
+              "type": "script"
+            }
+          ]
+        },
+        {
+          "id": "51",
+          "name": "Missile",
+          "type": null,
+          "children": [
+            {
+              "id": "52",
+              "name": "Sprite",
+              "type": "sprite"
+            },
+            {
+              "id": "53",
+              "name": "Behavior",
+              "type": "script"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "59",
+      "name": "Powerup",
+      "type": null,
+      "children": [
+        {
+          "id": "60",
+          "name": "Armor",
+          "type": "sprite"
+        },
+        {
+          "id": "63",
+          "name": "Power",
+          "type": "sprite"
+        },
+        {
+          "id": "64",
+          "name": "Shield",
+          "type": "sprite"
+        },
+        {
+          "id": "61",
+          "name": "PowerupSpawner",
+          "type": "script"
+        },
+        {
+          "id": "62",
+          "name": "PowerupBehavior",
+          "type": "script"
+        }
+      ]
+    },
+    {
+      "id": "34",
+      "name": "Effects",
+      "type": null,
+      "children": [
+        {
+          "id": "35",
+          "name": "ExplosionBehavior",
+          "type": "script"
+        },
+        {
+          "id": "36",
+          "name": "Hit",
+          "type": "sprite"
+        },
+        {
+          "id": "37",
+          "name": "Explosion",
+          "type": "sprite"
+        },
+        {
+          "id": "73",
+          "name": "ShipPropulsorBehavior",
+          "type": "script"
+        },
+        {
+          "id": "72",
+          "name": "Ship propulsor",
+          "type": "sprite"
+        },
+        {
+          "id": "65",
+          "name": "Shield",
+          "type": "sprite"
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "name": "Background",
+      "type": null,
+      "children": [
+        {
+          "id": "7",
+          "name": "Behavior",
+          "type": "script"
+        },
+        {
+          "id": "29",
+          "name": "Far",
+          "type": null,
+          "children": [
+            {
+              "id": "6",
+              "name": "1",
+              "type": "sprite"
+            },
+            {
+              "id": "30",
+              "name": "2",
+              "type": "sprite"
+            },
+            {
+              "id": "31",
+              "name": "3",
+              "type": "sprite"
+            },
+            {
+              "id": "32",
+              "name": "4",
+              "type": "sprite"
+            }
+          ]
+        },
+        {
+          "id": "8",
+          "name": "Close",
+          "type": "sprite"
+        }
+      ]
+    },
+    {
+      "id": "33",
+      "name": "HUD",
+      "type": null,
+      "children": [
+        {
+          "id": "56",
+          "name": "ScoreDisplayBehavior",
+          "type": "script"
+        },
+        {
+          "id": "57",
+          "name": "HighscoreDisplayBehavior",
+          "type": "script"
+        },
+        {
+          "id": "66",
+          "name": "CameraBehavior",
+          "type": "script"
+        },
+        {
+          "id": "67",
+          "name": "ArmorEmpty",
+          "type": "sprite"
+        },
+        {
+          "id": "68",
+          "name": "ArmorFull",
+          "type": "sprite"
+        },
+        {
+          "id": "69",
+          "name": "Armor Bar",
+          "type": "scene"
+        },
+        {
+          "id": "70",
+          "name": "ArmorBarBehavior",
+          "type": "script"
+        },
+        {
+          "id": "93",
+          "name": "Audio Off",
+          "type": "sprite"
+        },
+        {
+          "id": "94",
+          "name": "Audio On",
+          "type": "sprite"
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "name": "Font",
+      "type": null,
+      "children": [
+        {
+          "id": "25",
+          "name": "Space",
+          "type": "font"
+        },
+        {
+          "id": "86",
+          "name": "Font",
+          "type": "font"
+        }
+      ]
+    },
+    {
+      "id": "49",
+      "name": "Music",
+      "type": null,
+      "children": [
+        {
+          "id": "58",
+          "name": "MusicManager",
+          "type": "script"
+        },
+        {
+          "id": "50",
+          "name": "Ozzed_GameAtHeart",
+          "type": "sound"
+        }
+      ]
+    },
+    {
+      "id": "42",
+      "name": "Sounds",
+      "type": null,
+      "children": [
+        {
+          "id": "54",
+          "name": "ennemyShoot",
+          "type": "sound"
+        },
+        {
+          "id": "44",
+          "name": "ennemyHit",
+          "type": "sound"
+        },
+        {
+          "id": "46",
+          "name": "ennemyExplosion",
+          "type": "sound"
+        },
+        {
+          "id": "43",
+          "name": "shipShoot",
+          "type": "sound"
+        },
+        {
+          "id": "48",
+          "name": "shipHit",
+          "type": "sound"
+        },
+        {
+          "id": "47",
+          "name": "shipExplosion",
+          "type": "sound"
+        },
+        {
+          "id": "75",
+          "name": "powerupGetArmor",
+          "type": "sound"
+        },
+        {
+          "id": "76",
+          "name": "powerupGetPower",
+          "type": "sound"
+        },
+        {
+          "id": "77",
+          "name": "powerupGetShield",
+          "type": "sound"
+        }
+      ]
+    },
+    {
+      "id": "9",
+      "name": "Game",
+      "type": "script"
+    }
+  ]
+}

@@ -1,0 +1,1092 @@
+{
+  "formatVersion": 1,
+  "nodes": [
+    {
+      "id": "0",
+      "name": "Camera",
+      "children": [],
+      "components": [
+        {
+          "type": "Camera",
+          "config": {
+            "formatVersion": 1,
+            "mode": "orthographic",
+            "fov": 45,
+            "orthographicScale": 20,
+            "viewport": {
+              "x": 0,
+              "y": 0,
+              "width": 1,
+              "height": 1
+            },
+            "depth": 0,
+            "nearClippingPlane": 0.1,
+            "farClippingPlane": 1000
+          },
+          "id": "0"
+        },
+        {
+          "type": "Behavior",
+          "config": {
+            "behaviorName": "CreditBehavior",
+            "propertyValues": {}
+          },
+          "id": "2"
+        }
+      ],
+      "position": {
+        "x": 0,
+        "y": 0,
+        "z": 10
+      },
+      "orientation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "visible": true,
+      "layer": 0,
+      "prefab": null
+    },
+    {
+      "id": "1",
+      "name": "Background",
+      "children": [
+        {
+          "id": "2",
+          "name": "Far",
+          "children": [],
+          "components": [
+            {
+              "type": "SpriteRenderer",
+              "config": {
+                "formatVersion": 1,
+                "spriteAssetId": "6",
+                "animationId": null,
+                "horizontalFlip": false,
+                "verticalFlip": false,
+                "castShadow": false,
+                "receiveShadow": false,
+                "color": "ffffff",
+                "overrideOpacity": false,
+                "opacity": null,
+                "materialType": "basic",
+                "shaderAssetId": null
+              },
+              "id": "0"
+            },
+            {
+              "type": "Behavior",
+              "config": {
+                "behaviorName": "BackgroundBehavior",
+                "propertyValues": {
+                  "randomSprite": {
+                    "type": "boolean",
+                    "value": true
+                  },
+                  "vSpeed": {
+                    "type": "number",
+                    "value": -0.025
+                  }
+                }
+              },
+              "id": "1"
+            }
+          ],
+          "position": {
+            "x": 0,
+            "y": 5,
+            "z": 0
+          },
+          "orientation": {
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "w": 1
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          },
+          "visible": true,
+          "layer": 0,
+          "prefab": null
+        },
+        {
+          "id": "4",
+          "name": "Far2",
+          "children": [],
+          "components": [
+            {
+              "type": "SpriteRenderer",
+              "config": {
+                "formatVersion": 1,
+                "spriteAssetId": "6",
+                "animationId": null,
+                "horizontalFlip": false,
+                "verticalFlip": false,
+                "castShadow": false,
+                "receiveShadow": false,
+                "color": "ffffff",
+                "overrideOpacity": false,
+                "opacity": null,
+                "materialType": "basic",
+                "shaderAssetId": null
+              },
+              "id": "0"
+            },
+            {
+              "type": "Behavior",
+              "config": {
+                "behaviorName": "BackgroundBehavior",
+                "propertyValues": {
+                  "randomSprite": {
+                    "type": "boolean",
+                    "value": true
+                  },
+                  "vSpeed": {
+                    "type": "number",
+                    "value": -0.025
+                  }
+                }
+              },
+              "id": "1"
+            }
+          ],
+          "position": {
+            "x": 0,
+            "y": 35,
+            "z": 0
+          },
+          "orientation": {
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "w": 1
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          },
+          "visible": true,
+          "layer": 0,
+          "prefab": null
+        },
+        {
+          "id": "6",
+          "name": "Close",
+          "children": [],
+          "components": [
+            {
+              "type": "SpriteRenderer",
+              "config": {
+                "formatVersion": 1,
+                "spriteAssetId": "8",
+                "animationId": null,
+                "horizontalFlip": false,
+                "verticalFlip": false,
+                "castShadow": false,
+                "receiveShadow": false,
+                "color": "ffffff",
+                "overrideOpacity": false,
+                "opacity": null,
+                "materialType": "basic",
+                "shaderAssetId": null
+              },
+              "id": "0"
+            },
+            {
+              "type": "Behavior",
+              "config": {
+                "behaviorName": "BackgroundBehavior",
+                "propertyValues": {
+                  "vSpeed": {
+                    "type": "number",
+                    "value": -0.05
+                  }
+                }
+              },
+              "id": "1"
+            }
+          ],
+          "position": {
+            "x": 0,
+            "y": 5,
+            "z": 0.5
+          },
+          "orientation": {
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "w": 1
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          },
+          "visible": true,
+          "layer": 0,
+          "prefab": null
+        },
+        {
+          "id": "5",
+          "name": "Close2",
+          "children": [],
+          "components": [
+            {
+              "type": "SpriteRenderer",
+              "config": {
+                "formatVersion": 1,
+                "spriteAssetId": "8",
+                "animationId": null,
+                "horizontalFlip": false,
+                "verticalFlip": false,
+                "castShadow": false,
+                "receiveShadow": false,
+                "color": "ffffff",
+                "overrideOpacity": false,
+                "opacity": null,
+                "materialType": "basic",
+                "shaderAssetId": null
+              },
+              "id": "0"
+            },
+            {
+              "type": "Behavior",
+              "config": {
+                "behaviorName": "BackgroundBehavior",
+                "propertyValues": {
+                  "vSpeed": {
+                    "type": "number",
+                    "value": -0.05
+                  }
+                }
+              },
+              "id": "1"
+            }
+          ],
+          "position": {
+            "x": 0,
+            "y": 35,
+            "z": 0.5
+          },
+          "orientation": {
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "w": 1
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          },
+          "visible": true,
+          "layer": 0,
+          "prefab": null
+        }
+      ],
+      "components": [],
+      "position": {
+        "x": 0,
+        "y": 0,
+        "z": -5
+      },
+      "orientation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "visible": true,
+      "layer": 0,
+      "prefab": null
+    },
+    {
+      "id": "14",
+      "name": "Buttons",
+      "children": [
+        {
+          "id": "13",
+          "name": "Menu",
+          "children": [],
+          "components": [
+            {
+              "type": "TextRenderer",
+              "config": {
+                "formatVersion": 2,
+                "fontAssetId": "25",
+                "text": "menu",
+                "alignment": "center",
+                "verticalAlignment": "center",
+                "size": null,
+                "color": null,
+                "overrideOpacity": false,
+                "opacity": null
+              },
+              "id": "0"
+            }
+          ],
+          "position": {
+            "x": 0,
+            "y": -8.5,
+            "z": 0
+          },
+          "orientation": {
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "w": 1
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          },
+          "visible": true,
+          "layer": 0,
+          "prefab": null
+        }
+      ],
+      "components": [],
+      "position": {
+        "x": 0,
+        "y": 0,
+        "z": 6
+      },
+      "orientation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "visible": true,
+      "layer": 0,
+      "prefab": null
+    },
+    {
+      "id": "42",
+      "name": "Links",
+      "children": [
+        {
+          "id": "22",
+          "name": "Metylene",
+          "children": [],
+          "components": [
+            {
+              "type": "TextRenderer",
+              "config": {
+                "formatVersion": 2,
+                "fontAssetId": "86",
+                "text": "METYLENE",
+                "alignment": "center",
+                "verticalAlignment": "center",
+                "size": 30,
+                "color": null,
+                "overrideOpacity": false,
+                "opacity": null
+              },
+              "id": "0"
+            }
+          ],
+          "position": {
+            "x": 0.156,
+            "y": 8.465,
+            "z": 0
+          },
+          "orientation": {
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "w": 1
+          },
+          "scale": {
+            "x": 1.2000000476837158,
+            "y": 1.2000000476837158,
+            "z": 0.9999999403953552
+          },
+          "visible": true,
+          "layer": 0,
+          "prefab": null
+        },
+        {
+          "id": "45",
+          "name": "Sparklin Labs",
+          "children": [],
+          "components": [
+            {
+              "type": "TextRenderer",
+              "config": {
+                "formatVersion": 2,
+                "fontAssetId": "86",
+                "text": "SPARKLIN LABS\n",
+                "alignment": "left",
+                "verticalAlignment": "center",
+                "size": 30,
+                "color": null,
+                "overrideOpacity": false,
+                "opacity": null
+              },
+              "id": "0"
+            }
+          ],
+          "position": {
+            "x": -3.49399995803833,
+            "y": 3.725174903869629,
+            "z": -0.000001430511474609375
+          },
+          "orientation": {
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "w": 1
+          },
+          "scale": {
+            "x": 1.2000000476837158,
+            "y": 1.2000000476837158,
+            "z": 0.9999998211860657
+          },
+          "visible": true,
+          "layer": 0,
+          "prefab": null
+        },
+        {
+          "id": "32",
+          "name": "Ozzed",
+          "children": [],
+          "components": [
+            {
+              "type": "TextRenderer",
+              "config": {
+                "formatVersion": 2,
+                "fontAssetId": "86",
+                "text": "OZZED",
+                "alignment": "center",
+                "verticalAlignment": "top",
+                "size": 20,
+                "color": null,
+                "overrideOpacity": false,
+                "opacity": null
+              },
+              "id": "0"
+            }
+          ],
+          "position": {
+            "x": -0.324,
+            "y": 1.661,
+            "z": 0
+          },
+          "orientation": {
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "w": 1
+          },
+          "scale": {
+            "x": 1.2000000476837158,
+            "y": 1.2000000476837158,
+            "z": 0.9999999403953552
+          },
+          "visible": true,
+          "layer": 0,
+          "prefab": null
+        },
+        {
+          "id": "44",
+          "name": "Superpowers",
+          "children": [],
+          "components": [
+            {
+              "type": "TextRenderer",
+              "config": {
+                "formatVersion": 2,
+                "fontAssetId": "86",
+                "text": "SUPERPOWERS\n",
+                "alignment": "left",
+                "verticalAlignment": "center",
+                "size": 30,
+                "color": null,
+                "overrideOpacity": false,
+                "opacity": null
+              },
+              "id": "0"
+            }
+          ],
+          "position": {
+            "x": -3.494,
+            "y": -2.295,
+            "z": 0
+          },
+          "orientation": {
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "w": 1
+          },
+          "scale": {
+            "x": 1.2000000476837158,
+            "y": 1.2000000476837158,
+            "z": 0.9999998211860657
+          },
+          "visible": true,
+          "layer": 0,
+          "prefab": null
+        }
+      ],
+      "components": [],
+      "position": {
+        "x": 2.484,
+        "y": -3.161,
+        "z": 6
+      },
+      "orientation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "visible": true,
+      "layer": 0,
+      "prefab": null
+    },
+    {
+      "id": "20",
+      "name": "Credit",
+      "children": [
+        {
+          "id": "23",
+          "name": "Title",
+          "children": [],
+          "components": [
+            {
+              "type": "TextRenderer",
+              "config": {
+                "formatVersion": 2,
+                "fontAssetId": "86",
+                "text": "CREDIT",
+                "alignment": "center",
+                "verticalAlignment": "top",
+                "size": 20,
+                "color": null,
+                "overrideOpacity": false,
+                "opacity": null
+              },
+              "id": "0"
+            }
+          ],
+          "position": {
+            "x": 0,
+            "y": 9.5,
+            "z": 0
+          },
+          "orientation": {
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "w": 1
+          },
+          "scale": {
+            "x": 2,
+            "y": 2,
+            "z": 1
+          },
+          "visible": true,
+          "layer": 0,
+          "prefab": null
+        },
+        {
+          "id": "21",
+          "name": "Dev title",
+          "children": [
+            {
+              "id": "24",
+              "name": "Metylene avatar",
+              "children": [],
+              "components": [
+                {
+                  "type": "SpriteRenderer",
+                  "config": {
+                    "formatVersion": 1,
+                    "spriteAssetId": "88",
+                    "animationId": null,
+                    "horizontalFlip": false,
+                    "verticalFlip": false,
+                    "castShadow": false,
+                    "receiveShadow": false,
+                    "color": "ffffff",
+                    "overrideOpacity": false,
+                    "opacity": null,
+                    "materialType": "basic",
+                    "shaderAssetId": null
+                  },
+                  "id": "0"
+                }
+              ],
+              "position": {
+                "x": -2.5,
+                "y": -1.833,
+                "z": 2
+              },
+              "orientation": {
+                "x": 0,
+                "y": 0,
+                "z": 0,
+                "w": 1
+              },
+              "scale": {
+                "x": 0.6666666865348816,
+                "y": 0.6666666865348816,
+                "z": 0.9999999403953552
+              },
+              "visible": true,
+              "layer": 0,
+              "prefab": null
+            }
+          ],
+          "components": [
+            {
+              "type": "TextRenderer",
+              "config": {
+                "formatVersion": 2,
+                "fontAssetId": "86",
+                "text": "GAME DEVELOPMENT",
+                "alignment": "center",
+                "verticalAlignment": "top",
+                "size": 20,
+                "color": null,
+                "overrideOpacity": false,
+                "opacity": null
+              },
+              "id": "0"
+            }
+          ],
+          "position": {
+            "x": 0,
+            "y": 7.5,
+            "z": 0
+          },
+          "orientation": {
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "w": 1
+          },
+          "scale": {
+            "x": 1.2,
+            "y": 1.2,
+            "z": 1
+          },
+          "visible": true,
+          "layer": 0,
+          "prefab": null
+        },
+        {
+          "id": "25",
+          "name": "Asset title",
+          "children": [
+            {
+              "id": "27",
+              "name": "Sparklin labs Logo",
+              "children": [],
+              "components": [
+                {
+                  "type": "SpriteRenderer",
+                  "config": {
+                    "formatVersion": 1,
+                    "spriteAssetId": "89",
+                    "animationId": null,
+                    "horizontalFlip": false,
+                    "verticalFlip": false,
+                    "castShadow": false,
+                    "receiveShadow": false,
+                    "color": "ffffff",
+                    "overrideOpacity": false,
+                    "opacity": null,
+                    "materialType": "basic",
+                    "shaderAssetId": null
+                  },
+                  "id": "0"
+                }
+              ],
+              "position": {
+                "x": -2.5,
+                "y": -1.833,
+                "z": 2
+              },
+              "orientation": {
+                "x": 0,
+                "y": 0,
+                "z": 0,
+                "w": 1
+              },
+              "scale": {
+                "x": 0.6666666865348816,
+                "y": 0.6666666865348816,
+                "z": 0.9999999403953552
+              },
+              "visible": true,
+              "layer": 0,
+              "prefab": null
+            },
+            {
+              "id": "46",
+              "name": "From Asset Pack",
+              "children": [],
+              "components": [
+                {
+                  "type": "TextRenderer",
+                  "config": {
+                    "formatVersion": 2,
+                    "fontAssetId": "86",
+                    "text": "from\n\n\n\nasset pack",
+                    "alignment": "left",
+                    "verticalAlignment": "center",
+                    "size": 30,
+                    "color": null,
+                    "overrideOpacity": false,
+                    "opacity": null
+                  },
+                  "id": "0"
+                }
+              ],
+              "position": {
+                "x": -0.8416666388511658,
+                "y": -1.8300000429153442,
+                "z": 5.999999523162842
+              },
+              "orientation": {
+                "x": 0,
+                "y": 0,
+                "z": 0,
+                "w": 1
+              },
+              "scale": {
+                "x": 1,
+                "y": 1,
+                "z": 0.9999998211860657
+              },
+              "visible": true,
+              "layer": 0,
+              "prefab": null
+            }
+          ],
+          "components": [
+            {
+              "type": "TextRenderer",
+              "config": {
+                "formatVersion": 2,
+                "fontAssetId": "86",
+                "text": "SPRITE & SOUND \n",
+                "alignment": "center",
+                "verticalAlignment": "top",
+                "size": 20,
+                "color": null,
+                "overrideOpacity": false,
+                "opacity": null
+              },
+              "id": "0"
+            }
+          ],
+          "position": {
+            "x": 0,
+            "y": 3,
+            "z": 0
+          },
+          "orientation": {
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "w": 1
+          },
+          "scale": {
+            "x": 1.2000000476837158,
+            "y": 1.2000000476837158,
+            "z": 1
+          },
+          "visible": true,
+          "layer": 0,
+          "prefab": null
+        },
+        {
+          "id": "29",
+          "name": "Music Title",
+          "children": [
+            {
+              "id": "33",
+              "name": "Music By",
+              "children": [],
+              "components": [
+                {
+                  "type": "TextRenderer",
+                  "config": {
+                    "formatVersion": 2,
+                    "fontAssetId": "86",
+                    "text": "music by",
+                    "alignment": "center",
+                    "verticalAlignment": "top",
+                    "size": 20,
+                    "color": null,
+                    "overrideOpacity": false,
+                    "opacity": null
+                  },
+                  "id": "0"
+                }
+              ],
+              "position": {
+                "x": -1.199009886606298,
+                "y": 0,
+                "z": 0
+              },
+              "orientation": {
+                "x": 0,
+                "y": 0,
+                "z": 0,
+                "w": 1
+              },
+              "scale": {
+                "x": 1,
+                "y": 1,
+                "z": 0.9999999403953552
+              },
+              "visible": true,
+              "layer": 0,
+              "prefab": null
+            },
+            {
+              "id": "35",
+              "name": "Music title",
+              "children": [],
+              "components": [
+                {
+                  "type": "TextRenderer",
+                  "config": {
+                    "formatVersion": 2,
+                    "fontAssetId": "86",
+                    "text": "Title : game at heart",
+                    "alignment": "center",
+                    "verticalAlignment": "top",
+                    "size": 20,
+                    "color": null,
+                    "overrideOpacity": false,
+                    "opacity": null
+                  },
+                  "id": "0"
+                }
+              ],
+              "position": {
+                "x": 0,
+                "y": -0.619,
+                "z": 0
+              },
+              "orientation": {
+                "x": 0,
+                "y": 0,
+                "z": 0,
+                "w": 1
+              },
+              "scale": {
+                "x": 1,
+                "y": 1,
+                "z": 0.9999999403953552
+              },
+              "visible": true,
+              "layer": 0,
+              "prefab": null
+            }
+          ],
+          "components": [],
+          "position": {
+            "x": 0,
+            "y": -1.5,
+            "z": 0
+          },
+          "orientation": {
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "w": 1
+          },
+          "scale": {
+            "x": 1.2000000476837158,
+            "y": 1.2000000476837158,
+            "z": 1
+          },
+          "visible": true,
+          "layer": 0,
+          "prefab": null
+        },
+        {
+          "id": "39",
+          "name": "Engine title",
+          "children": [
+            {
+              "id": "40",
+              "name": "Sparklin labs Logo",
+              "children": [],
+              "components": [
+                {
+                  "type": "SpriteRenderer",
+                  "config": {
+                    "formatVersion": 1,
+                    "spriteAssetId": "90",
+                    "animationId": null,
+                    "horizontalFlip": false,
+                    "verticalFlip": false,
+                    "castShadow": false,
+                    "receiveShadow": false,
+                    "color": "ffffff",
+                    "overrideOpacity": false,
+                    "opacity": null,
+                    "materialType": "basic",
+                    "shaderAssetId": null
+                  },
+                  "id": "0"
+                }
+              ],
+              "position": {
+                "x": -2.5,
+                "y": -1.833,
+                "z": 2
+              },
+              "orientation": {
+                "x": 0,
+                "y": 0,
+                "z": 0,
+                "w": 1
+              },
+              "scale": {
+                "x": 0.6666666865348816,
+                "y": 0.6666666865348816,
+                "z": 0.9999999403953552
+              },
+              "visible": true,
+              "layer": 0,
+              "prefab": null
+            },
+            {
+              "id": "43",
+              "name": "Game Engine",
+              "children": [],
+              "components": [
+                {
+                  "type": "TextRenderer",
+                  "config": {
+                    "formatVersion": 2,
+                    "fontAssetId": "86",
+                    "text": "game engine",
+                    "alignment": "left",
+                    "verticalAlignment": "center",
+                    "size": 30,
+                    "color": null,
+                    "overrideOpacity": false,
+                    "opacity": null
+                  },
+                  "id": "0"
+                }
+              ],
+              "position": {
+                "x": -0.8418554860308447,
+                "y": -2.230431831349563,
+                "z": -3.57627705227523e-7
+              },
+              "orientation": {
+                "x": 0,
+                "y": 0,
+                "z": 0,
+                "w": 1
+              },
+              "scale": {
+                "x": 1,
+                "y": 1,
+                "z": 0.9999998807907104
+              },
+              "visible": true,
+              "layer": 0,
+              "prefab": null
+            }
+          ],
+          "components": [
+            {
+              "type": "TextRenderer",
+              "config": {
+                "formatVersion": 2,
+                "fontAssetId": "86",
+                "text": "made with\n",
+                "alignment": "center",
+                "verticalAlignment": "top",
+                "size": 20,
+                "color": null,
+                "overrideOpacity": false,
+                "opacity": null
+              },
+              "id": "0"
+            }
+          ],
+          "position": {
+            "x": 0,
+            "y": -3.5,
+            "z": 0
+          },
+          "orientation": {
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "w": 1
+          },
+          "scale": {
+            "x": 1.2000000476837158,
+            "y": 1.2000000476837158,
+            "z": 1
+          },
+          "visible": true,
+          "layer": 0,
+          "prefab": null
+        }
+      ],
+      "components": [],
+      "position": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "orientation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "visible": true,
+      "layer": 0,
+      "prefab": null
+    }
+  ]
+}

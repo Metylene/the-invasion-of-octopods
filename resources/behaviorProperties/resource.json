@@ -1,0 +1,249 @@
+{
+  "behaviors": {
+    "ShipBehavior": {
+      "scriptId": "4",
+      "line": 0,
+      "parentBehavior": null,
+      "properties": [
+        {
+          "name": "position",
+          "type": "Sup.Math.Vector2"
+        },
+        {
+          "name": "size",
+          "type": "number"
+        },
+        {
+          "name": "armor",
+          "type": "number"
+        },
+        {
+          "name": "canShoot",
+          "type": "boolean"
+        },
+        {
+          "name": "canMove",
+          "type": "boolean"
+        }
+      ]
+    },
+    "BackgroundBehavior": {
+      "scriptId": "7",
+      "line": 0,
+      "parentBehavior": null,
+      "properties": [
+        {
+          "name": "vSpeed",
+          "type": "number"
+        },
+        {
+          "name": "randomSprite",
+          "type": "boolean"
+        }
+      ]
+    },
+    "LaserBehavior": {
+      "scriptId": "13",
+      "line": 0,
+      "parentBehavior": null,
+      "properties": [
+        {
+          "name": "vSpeed",
+          "type": "number"
+        },
+        {
+          "name": "hSpeed",
+          "type": "number"
+        },
+        {
+          "name": "size",
+          "type": "number"
+        },
+        {
+          "name": "position",
+          "type": "Sup.Math.Vector2"
+        }
+      ]
+    },
+    "LittleBehavior": {
+      "scriptId": "17",
+      "line": 0,
+      "parentBehavior": "EnnemyBehavior",
+      "properties": []
+    },
+    "EnnemySpawnerBehavior": {
+      "scriptId": "18",
+      "line": 0,
+      "parentBehavior": null,
+      "properties": []
+    },
+    "EnnemyBehavior": {
+      "scriptId": "19",
+      "line": 0,
+      "parentBehavior": null,
+      "properties": [
+        {
+          "name": "position",
+          "type": "Sup.Math.Vector2"
+        },
+        {
+          "name": "size",
+          "type": "number"
+        },
+        {
+          "name": "vSpeed",
+          "type": "number"
+        },
+        {
+          "name": "armor",
+          "type": "number"
+        },
+        {
+          "name": "scoreValue",
+          "type": "number"
+        }
+      ]
+    },
+    "MenuBehavior": {
+      "scriptId": "23",
+      "line": 0,
+      "parentBehavior": null,
+      "properties": []
+    },
+    "ExplosionBehavior": {
+      "scriptId": "35",
+      "line": 0,
+      "parentBehavior": null,
+      "properties": []
+    },
+    "BigBehavior": {
+      "scriptId": "40",
+      "line": 0,
+      "parentBehavior": "EnnemyBehavior",
+      "properties": [
+        {
+          "name": "hSpeed",
+          "type": "number"
+        },
+        {
+          "name": "shootCooldownDuration",
+          "type": "number"
+        },
+        {
+          "name": "shootCooldown",
+          "type": "number"
+        }
+      ]
+    },
+    "MissileBehavior": {
+      "scriptId": "53",
+      "line": 0,
+      "parentBehavior": null,
+      "properties": [
+        {
+          "name": "vSpeed",
+          "type": "number"
+        },
+        {
+          "name": "size",
+          "type": "number"
+        },
+        {
+          "name": "position",
+          "type": "Sup.Math.Vector2"
+        }
+      ]
+    },
+    "ScoreDisplayBehavior": {
+      "scriptId": "56",
+      "line": 0,
+      "parentBehavior": null,
+      "properties": []
+    },
+    "HighscoreDisplayBehavior": {
+      "scriptId": "57",
+      "line": 0,
+      "parentBehavior": null,
+      "properties": []
+    },
+    "MusicManagerBehavior": {
+      "scriptId": "58",
+      "line": 0,
+      "parentBehavior": null,
+      "properties": [
+        {
+          "name": "musicPath",
+          "type": "string"
+        },
+        {
+          "name": "volume",
+          "type": "number"
+        },
+        {
+          "name": "soundMuted",
+          "type": "boolean"
+        }
+      ]
+    },
+    "PowerupSpawnerBehavior": {
+      "scriptId": "61",
+      "line": 0,
+      "parentBehavior": null,
+      "properties": []
+    },
+    "PowerupBehavior": {
+      "scriptId": "62",
+      "line": 0,
+      "parentBehavior": null,
+      "properties": [
+        {
+          "name": "position",
+          "type": "Sup.Math.Vector2"
+        },
+        {
+          "name": "speed",
+          "type": "Sup.Math.Vector2"
+        },
+        {
+          "name": "name",
+          "type": "string"
+        }
+      ]
+    },
+    "CameraBehavior": {
+      "scriptId": "66",
+      "line": 0,
+      "parentBehavior": null,
+      "properties": []
+    },
+    "ArmorBarBehavior": {
+      "scriptId": "70",
+      "line": 0,
+      "parentBehavior": null,
+      "properties": []
+    },
+    "ShipPropulsorBehavior": {
+      "scriptId": "73",
+      "line": 0,
+      "parentBehavior": null,
+      "properties": [
+        {
+          "name": "positionOffset",
+          "type": "Sup.Math.Vector2"
+        }
+      ]
+    },
+    "CreditBehavior": {
+      "scriptId": "92",
+      "line": 2,
+      "parentBehavior": null,
+      "properties": []
+    },
+    "AudioButtonBehavior": {
+      "scriptId": "23",
+      "line": 62,
+      "parentBehavior": null,
+      "properties": []
+    }
+  }
+}
